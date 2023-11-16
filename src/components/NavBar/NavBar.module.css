@@ -70,6 +70,7 @@ ul {
 
 li {
     display: inline-block;
+    font-family: 'Luminova', sans-serif;
     float: left;
     padding: 10px
 }
