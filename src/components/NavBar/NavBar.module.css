@@ -24,7 +24,7 @@ header {
     font-size: 25px;
     left: 54%;
     display: table-caption;
-    margin: 4% 0 0 15%
+    margin: 6% 0 0 20%;
 }
 
 .VHeader {
@@ -35,8 +35,8 @@ header {
     border-radius: 15px;
     text-align: center;
     background-color: #5FC6F5;
-    position: fixed;
-    top: 1.5%;
+    position: absolute;
+    top: 16.5%;
 }
 
 a {

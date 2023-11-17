@@ -6,7 +6,7 @@ import linkedinLogo from 'linkedinLogo.svg';
 export const NavBar = () => {
   return (
     <>
-    <Fade>
+    <Fade duration={1500}>
     <header>
     <a href="#"><span className={styles.VHeader}>V</span> <b className={styles.NameHeader}>Valentina Ramirez</b></a>
       <nav>
