@@ -126,16 +126,16 @@
 
   
 .bg1 {
-    background:linear-gradient(34deg, rgba(245, 177, 95,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(245, 178, 95, 0.854) 100%), 
+    background:linear-gradient(34deg, rgba(95, 198, 245,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(95, 198, 245, 0.854) 100%), 
     url(https://cdn.glitch.me/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/MAKATA.gif?v=1700257290591);
   }
 .bg2 {
-    background:linear-gradient(34deg, rgba(245, 177, 95,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(245, 178, 95, 0.854) 100%),
+    background:linear-gradient(34deg, rgba(95, 198, 245,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(95, 198, 245, 0.854) 100%),
     url(https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/baby.gif?v=1700257257519);
 
   }
 .bg3 {
-    background: linear-gradient(34deg, rgba(245, 177, 95,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(245, 178, 95, 0.854) 100%),
+    background: linear-gradient(34deg, rgba(95, 198, 245,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(95, 198, 245, 0.854) 100%),
     url(https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/wip.gif?v=1700254082413);
   }
   
