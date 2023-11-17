@@ -9,7 +9,7 @@ export const Bio = () => {
       <div className={styles.bioContainer}>
         <div className={styles.row}>
           <div className={styles.column_1}>
-           <Fade cascade delay={600} damping={0.3} duration={2500}> 
+           <Fade  delay={200} duration={2500}> 
            <p>
               I'm <u>Valentina Ramirez Umaña</u>, a 26-year-old <u>Multimedia Engineer</u> from Colombia. I graduated from Universidad de San Buenaventura
               Bogotá and have gained <u>4 years of diverse experience</u> in game
@@ -28,10 +28,25 @@ export const Bio = () => {
               impact on society</u>. My vision is grounded in integrity, innovation,
               and a commitment to meaningful multimedia contributions.
             </p>
+            <h3>Technologies:</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Unity</li>
+                <li>Adobe Suite</li>
+                <li>3D Modeling</li>
+                <li>Typescript</li>
+                <li>Node.js</li>
+                <li>XCode</li>
+                <li>AndroidStudio</li>
+                <li>UX / UI</li>
+            </ul>
             </Fade>
           </div>
           <div className={styles.column_2}>
-           <Fade delay={500} duration={3500}><img
+           <Fade delay={200} duration={2500}><img
               src="https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/BioImage.jpeg?v=1700177139962"
               alt="Valentina Ramirez"
               className={styles.bioImg}

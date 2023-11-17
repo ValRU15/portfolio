@@ -5,8 +5,8 @@ export const Education = () => {
   return (
     <>
       <div className={styles.cardsContain} id="Edu">
-        <Fade cascade delay={600} damping={0.2} duration={2500}>
-            <h2 className={styles.TitleEdu}>Education</h2>
+        <Fade cascade delay={200} damping={0.2} duration={2500}>
+          <h2 className={styles.TitleEdu}>Education</h2>
           <div className={styles.blog_card}>
             <div className={styles.meta}>
               <div className={styles.photo}></div>
