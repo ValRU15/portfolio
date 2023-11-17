@@ -81,6 +81,93 @@ export const Education = () => {
             </div>
           </div>
         </Fade>
+        <div >
+            <h3>Other courses</h3>
+
+		<div className={styles.cards}>
+
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg1}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>Professional Skills and Digital Change Management</h2>
+					<a className={styles.card_more} href="https://accounts.iebschool.com/mi-diploma/deebba5b69e834a2c546c47c276a1ab3/">Show credential</a>
+				</div>
+			</div>
+
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg2}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>EF SET Certificate</h2>
+					<a className={styles.card_more} href="https://www.efset.org/cert/xN7N7i">Show credential</a>
+				</div>
+			</div>
+
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg3}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>User Research</h2>
+					<a className={styles.card_more} href="https://platzi.com/p/valru97/curso/1742-user-research/diploma/detalle/">Show credential</a>
+				</div>
+			</div>
+
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg3}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>How to Be a Product Designer</h2>
+					<a className={styles.card_more} href="https://platzi.com/p/valru97/curso/2432-course/diploma/detalle/">Show credential</a>
+				</div>
+			</div>
+
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg3}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>User Centered Design</h2>
+					<a className={styles.card_more} href="https://platzi.com/p/valru97/curso/1562-diseno-usuario/diploma/detalle/">Show credential</a>
+				</div>
+			</div>
+
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg3}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>Idea Validation: Successful Prototypes and Testing</h2>
+					<a className={styles.card_more} href="https://platzi.com/p/valru97/curso/1970-prototipos-testing/diploma/detalle/">Show credential</a>
+				</div>
+			</div>
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg3}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>Design Thinking with Minds Garage</h2>
+					<a className={styles.card_more} href="https://platzi.com/p/valru97/curso/1210-design-thinking/diploma/detalle/">Show credential</a>
+				</div>
+			</div>
+
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg3}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>Digital Market Research</h2>
+					<a className={styles.card_more} href="https://platzi.com/p/valru97/curso/2049-investigacion-mercados/diploma/detalle/">Show credential</a>
+				</div>
+			</div>
+
+			<div className={styles.card}>
+				<div className={`${styles.card_header} ${styles.bg3}`}>
+				</div>
+				<div className={styles.card_content}>
+					<h2 className={styles.card_title}>Practical SQL and MySQL Course</h2>
+					<a className={styles.card_more} href="https://platzi.com/p/valentinaramirezumana/curso/1272-sql-mysql/diploma/detalle/">Show credential</a>
+				</div>
+			</div>
+
+		</div>
+        </div>
       </div>
     </>
   );

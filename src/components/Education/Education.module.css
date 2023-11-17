@@ -239,6 +239,125 @@
     }
 }
 
+/* Cards */
+
+.transition {
+  -webkit-transition: all 0.25s linear;
+     -moz-transition: all 0.25s linear;
+       -o-transition: all 0.25s linear;
+          transition: all 0.25s linear;
+}
+
+
+.cards {
+  margin-top: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  position: relative;
+  border-radius: 1em;
+  width: 230px;
+  height: 290px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 2px 5px #777;
+     -moz-box-shadow: 0 2px 5px #777;
+          box-shadow: 0 2px 5px #777;
+  overflow: hidden;
+  margin: 10px 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+
+.card_header {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45%;
+}
+
+.card_image {
+  height: 55%;
+}
+
+.card_header.bg1 {
+  background-color: #691193;
+}
+
+.card_header.bg2 {
+  background-color: #fc5e9b;
+}
+
+.card_header.bg3 {
+  background-color: #0ae98a;
+}
+
+.card_content {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  height: 55%;
+  padding: 0 3%;
+}
+
+.card-title {
+  margin: 10px 0;
+  font-family: 'Luminova', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+.card_text {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+     -moz-transform: translate(0, -50%);
+       -o-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  color: #AAA;
+  font-family: 'Luminova', sans-serif;
+  font-size: 0.85em;
+}
+
+.card_more {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+  text-decoration: none;
+  font-family: 'Luminova', sans-serif;
+  font-size: 0.9em;
+  color: #1EAAC2;
+  font-weight: bold;
+}
+
+.card_more:hover {
+  color: #8ED4E0;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 5px 6px #777;
+     -moz-box-shadow: 0 5px 6px #777;
+          box-shadow: 0 5px 6px #777;
+  -webkit-transform: translate(0, -2%);
+     -moz-transform: translate(0, -2%);
+       -o-transform: translate(0, -2%);
+          transform: translate(0, -2%);
+}
+
+
 @media only screen and (max-width : 640px) {
     .cardsContain{
         margin-top: 130%;
