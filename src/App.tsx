@@ -4,6 +4,7 @@ import './App.css';
 import { NavBar } from './components/NavBar/NavBar'; 
 import { Bio } from './components/Bio/Bio'; 
 import { Education } from './components/Education/Education';
+import { Work } from './components/Work/Work';
 import AnimatedCursor from "react-animated-cursor"
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
     />
     <NavBar />
     <Bio />
+    <Work />
     <Education />
     </>
   );

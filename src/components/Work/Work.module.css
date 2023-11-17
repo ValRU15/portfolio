@@ -1,0 +1,196 @@
+@import url('https://fonts.cdnfonts.com/css/luminova');
+.workTitle{
+    font-family: 'Luminova', sans-serif;
+    color: var(--color-prime);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 8%;
+    padding: 2%;
+    border-bottom: 1px solid;
+}
+.container {
+    margin: auto;
+    width: 100%;
+    padding: 3rem;
+    height: 100vh;
+  }
+  
+  .title a {
+    font-family: 'Luminova', sans-serif;
+    text-decoration: none;
+    background-color: #5FC6F5;
+    color: #fff;
+    font-size: 20px;
+    padding: 3% 4%;
+    margin-right: 3%;
+    border-radius: 13px;
+    transition: all 0.3s ease-in-out;   
+  }
+  
+  .title a:hover {
+    transform: scale(1.1);
+    background-color: #32677F;
+  }
+
+  h1 {
+    font-weight: 300;
+    font-family: 'Luminova', sans-serif;
+  }
+  
+  .row {
+    margin: auto 0;
+  }
+  
+  .card_project {
+    float: left;
+    padding: 1rem;
+    min-width: 30%;
+  }
+  
+  .card_project .menu_content {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .card_project .menu_content li {
+    display: inline-block;
+  }
+  
+  .card_project .menu_content a {
+    color: #fff;
+  }
+  
+  .card_project .wrapper {
+    background-color: #fff;
+    min-height: 540px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 19px 38px rgba(0,0,0, 0.3), 0 15px 12px rgba(0,0,0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .card_project .wrapper:hover .data {
+    transform: translateY(0);
+    background-color: #fff;
+  }
+  
+  .card_project .wrapper .data {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(calc(100% + 1em));
+    transition: transform 0.3s;
+  }
+  
+  .card_project .wrapper .data .content {
+    padding: 1.5em;
+    position: relative;
+    height: 495px;
+    z-index: 1;
+  }
+  
+  .card_project .type {
+    font-size: 12px;
+  }
+  
+  .card_project .title {
+   margin-top: 8%;
+  }
+  
+  .card_project .text {
+    height: 325px;
+    margin: 0;
+    font-size: 15px;
+    margin-top: 9%;
+  }
+  .card_project .text li{
+    margin: -8px 0;
+  }
+  
+  .card_project input[type='checkbox'] {
+    display: none;
+  }
+  
+  .card_project input[type='checkbox']:checked + .menu_content {
+    transform: translateY(-60px);
+  }
+  .bg1,
+  .bg2,
+  .bg3{
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-blend-mode: multiply;
+    background-size: contain!important;
+  }
+
+  
+.bg1 {
+    background:linear-gradient(34deg, rgba(245, 177, 95,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(245, 178, 95, 0.854) 100%), 
+    url(https://cdn.glitch.me/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/MAKATA.gif?v=1700257290591);
+  }
+.bg2 {
+    background:linear-gradient(34deg, rgba(245, 177, 95,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(245, 178, 95, 0.854) 100%),
+    url(https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/baby.gif?v=1700257257519);
+
+  }
+.bg3 {
+    background: linear-gradient(34deg, rgba(245, 177, 95,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(245, 178, 95, 0.854) 100%),
+    url(https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/wip.gif?v=1700254082413);
+  }
+  
+  .example_5 .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: .75rem;
+  }
+  
+  .example_5 .date span {
+    font-family: 'Luminova', sans-serif;
+    display: block;
+    text-align: center;
+  }
+  
+.day {
+    font-family: 'Luminova', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #5FC6F5;
+    padding: 10px;
+    position: absolute;
+    padding: 10px;
+    top: 15px;
+  }
+  
+  .example_5 .content {
+    background-color: white;
+    color: black;
+    box-shadow: 0 5px 30px 10px  #101010;;
+  }
+  
+  .example_5 .title a {
+    color: black;
+  }
+  
+  .example_5 .menu_content {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .example_5 .menu_content li {
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  .example_5 .menu_content .fab {
+    color: #333;
+  }
+  
+  .example_5 .menu_content a {
+    font-size: 3rem;
+  }
+  
