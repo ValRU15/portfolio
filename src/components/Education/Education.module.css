@@ -8,7 +8,7 @@
 }
 .cardsContain{
     padding: 0% 0 ;
-    height: 100vh;
+    height: 180vh;
 }
 
 .TitleEdu{
@@ -40,7 +40,7 @@
 }
 
 .blog_card a:hover {
-    color: var(--color-prime);
+    color: #32677F;
 }
 .blog_card .photo{
     background-image: url(https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/usbbog.jpeg?v=1700184335931);
@@ -166,7 +166,7 @@
 }
 .blog_card .description .read_more a:hover{
     font-weight: 900;
-    font-style: italic;
+    color: #32677F;
 }
 
 .blog_card .description .read_more a:hover:after {
@@ -240,6 +240,18 @@
 }
 
 /* Cards */
+.otherContain{
+    margin: 5% 0 ;
+}
+.subtitleEdu{
+    font-family: 'Luminova', sans-serif;
+    font-size: 35px;
+    color: #5FC6F5;
+    margin: 8% 0 4% 0;
+    padding-bottom: 1.5%;
+    text-align: center;
+    border-bottom: 1px solid #ababab84;
+}
 
 .transition {
   -webkit-transition: all 0.25s linear;
@@ -263,11 +275,11 @@
   position: relative;
   border-radius: 1em;
   width: 230px;
-  height: 290px;
+  height: 180px;
   background-color: #FFF;
-  -webkit-box-shadow: 0 2px 5px #777;
-     -moz-box-shadow: 0 2px 5px #777;
-          box-shadow: 0 2px 5px #777;
+  -webkit-box-shadow: 5px 4px 7px 0px #15587864;
+     -moz-box-shadow: 5px 4px 7px 0px #15587864;
+          box-shadow: 5px 4px 7px 0px #15587864;
   overflow: hidden;
   margin: 10px 10px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -285,7 +297,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 45%;
+  height: 30%;
 }
 
 .card_image {
@@ -308,16 +320,18 @@
   position: absolute;
   top: 45%;
   left: 0;
-  width: 100%;
-  height: 55%;
+  width: 98%;
+  height: 53%;
   padding: 0 3%;
 }
 
-.card-title {
-  margin: 10px 0;
+.card_title {
+  margin: -10px 0;
   font-family: 'Luminova', sans-serif;
   text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 15px;
+  padding: 3%;
+  font-weight: 900;
 }
 
 .card_text {
@@ -334,8 +348,8 @@
 
 .card_more {
   position: absolute;
-  right: 10%;
-  bottom: 5%;
+  right: 14%;
+  bottom: 12%;
   text-decoration: none;
   font-family: 'Luminova', sans-serif;
   font-size: 0.9em;
@@ -344,13 +358,13 @@
 }
 
 .card_more:hover {
-  color: #8ED4E0;
+  color: #32677F;
 }
 
 .card:hover {
-  -webkit-box-shadow: 0 5px 6px #777;
-     -moz-box-shadow: 0 5px 6px #777;
-          box-shadow: 0 5px 6px #777;
+  -webkit-box-shadow: 5px 4px 7px 0px #072c3c64;
+     -moz-box-shadow: 5px 4px 7px 0px #072c3c64;
+          box-shadow: 5px 4px 7px 0px #072c3c64;
   -webkit-transform: translate(0, -2%);
      -moz-transform: translate(0, -2%);
        -o-transform: translate(0, -2%);
@@ -360,6 +374,6 @@
 
 @media only screen and (max-width : 640px) {
     .cardsContain{
-        margin-top: 130%;
+        margin-top: 185%;
     }
 }

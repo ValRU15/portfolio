@@ -1,70 +1,118 @@
 @import url('https://fonts.cdnfonts.com/css/luminova');
-.bioContainer{
+
+.bioContainer {
     height: 100vh;
 }
+
 .column_1 {
     float: left;
     width: 48%;
-    padding: 7% 0 0 6%;
+    padding: 5% 0 0 6%;
     align-self: center;
     margin: 0 auto;
-  }
+}
 
-  .column_2 {
+.column_2 {
     float: left;
     width: 41%;
     padding: 10px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    
+}
+
+/* Clear floats after the columns */
+.row:after {
+
     content: "";
     display: flex;
     clear: both;
-  }
+}
 
-  p{
+p {
     color: #101010;
     font-family: 'Luminova', sans-serif;
     font-weight: 700;
     font-size: 17.4px;
-  }
-  p u{
-    text-underline-offset: 3px;
-  }
+    line-height: 25px;
+}
 
-  .bioImg{
+p u {
+    text-underline-offset: 3px;
+}
+
+.bioImg {
     width: 75%;
     /* clip-path: polygon(15% 6%, 100% 6%, 85% 99%, 0% 100%); */
     border-radius: 50%;
     margin: 5% 0 0 20%;
     transform: rotate(5deg);
     transform-style: preserve-3d;
-        transform: translate3d(0,0,-1);
-  }
+    transform: translate3d(0, 0, -1);
+}
 
-  @media only screen and (max-width : 640px) {
-    .row{
+
+.tooltip_list {
+    margin: 0;
+    padding: 30px;
+    letter-spacing: 3px;
+}
+
+.tooltip_list .tooltip_wrapper {
+    position: relative;
+}
+
+.tooltip_list .tooltip_wrapper:hover {
+    color: #F5B15F;
+}
+
+.tooltip_list .tooltip_list_item:hover .tooltip {
+    z-index: 10;
+
+    visibility: visible;
+
+    opacity: 1;
+}
+
+.tooltip_list .tooltip {
+    font-size: 14px;
+    position: absolute;
+    z-index: 3;
+    top: -23px;
+    left: 63%;
+    visibility: hidden;
+    min-width: 90px;
+    padding: 10px;
+    transition: all .3s;
+    transform: translate(20%, -50%);
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #F5B15F;
+}
+
+@media only screen and (max-width : 640px) {
+    .row {
         display: grid;
         position: absolute;
-    z-index: -1;
+        z-index: -1;
     }
-    .row > * {
+
+    .row>* {
         order: 0;
-      }
-      .column_1 {
+    }
+
+    .column_1 {
         order: 2;
         width: 73%;
         padding: 2% 0 0 0;
-       }
-       
-       .column_2 {
+    }
+
+    .column_2 {
         width: 70%;
         order: 1;
-       }
-       .bioImg{
+    }
+
+    .bioImg {
         width: 100%;
         margin-top: 40%;
-      }
-  }
+    }
+}

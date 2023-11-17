@@ -12,7 +12,7 @@ function App() {
     <AnimatedCursor
       innerSize={15}
       outerSize={25}
-      color='245, 95, 115'
+      color='245, 177, 95'
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={2}
