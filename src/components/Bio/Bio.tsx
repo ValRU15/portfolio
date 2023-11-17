@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Bio.module.css";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export const Bio = () => {
   return (
