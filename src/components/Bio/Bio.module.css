@@ -4,8 +4,8 @@
 }
 .column_1 {
     float: left;
-    width: 55%;
-    padding: 14% 0 0 0;
+    width: 48%;
+    padding: 14% 0 0 6%;
     align-self: center;
     margin: 0 auto;
   }
@@ -29,6 +29,9 @@
     font-family: 'Luminova', sans-serif;
     font-weight: 700;
     font-size: 17.4px;
+  }
+  p u{
+    text-underline-offset: 3px;
   }
 
   .bioImg{

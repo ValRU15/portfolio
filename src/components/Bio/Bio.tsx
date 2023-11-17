@@ -11,22 +11,21 @@ export const Bio = () => {
           <div className={styles.column_1}>
            <Fade cascade delay={600} damping={0.3} duration={2500}> 
            <p>
-              I'm <u>Valentina Ramirez Umaña</u>, a 26-year-old <u>Multimedia Engineer</u>
-              from Colombia. I graduated from Universidad de San Buenaventura
+              I'm <u>Valentina Ramirez Umaña</u>, a 26-year-old <u>Multimedia Engineer</u> from Colombia. I graduated from Universidad de San Buenaventura
               Bogotá and have gained <u>4 years of diverse experience</u> in game
               development, graphic design, and interactive media.
             </p>
             <p>
               My professional philosophy centers on moral values like respect,
-              teamwork, and leadership. I believe in fostering a respectful team
-              culture, recognizing the strength of collaboration, and leading
+              teamwork, and leadership. I believe in <u>fostering a respectful team
+              culture</u>, recognizing the strength of collaboration, and leading
               with a blend of inspiration and guidance.
             </p>
             <p>
-              Looking forward, my goal is to establish my own serious games
-              company. I aim to create games that not only entertain but also
-              incorporate ethical and educational elements, making a positive
-              impact on society. My vision is grounded in integrity, innovation,
+              Looking forward, my goal is to establish my own <u>serious games
+              company</u>. I aim to create games that not only entertain but also
+              incorporate ethical and educational elements, making a <u>positive
+              impact on society</u>. My vision is grounded in integrity, innovation,
               and a commitment to meaningful multimedia contributions.
             </p>
             </Fade>
