@@ -12,7 +12,7 @@
     margin: auto;
     width: 100%;
     padding: 3rem;
-    height: 100vh;
+    margin-bottom: 10%;
   }
   
   .title a {
@@ -63,7 +63,7 @@
   
   .card_project .wrapper {
     background-color: #fff;
-    min-height: 540px;
+    min-height: 600px;
     position: relative;
     overflow: hidden;
     box-shadow: 0 19px 38px rgba(0,0,0, 0.3), 0 15px 12px rgba(0,0,0, 0.2);
@@ -99,13 +99,13 @@
   }
   
   .card_project .text {
-    height: 325px;
     margin: 0;
     font-size: 15px;
     margin-top: 9%;
   }
-  .card_project .text li{
-    margin: -8px 0;
+  .card_project  li{
+    margin: -3px 0;
+    font-size: 15px;
   }
   
   .card_project input[type='checkbox'] {
@@ -194,3 +194,18 @@
     font-size: 3rem;
   }
   
+
+
+@media only screen and (max-width : 640px) {
+    .WorkContain{
+        margin-top: 120%;
+        padding: 0 14%;
+    }
+    .card_project{
+        min-width: 67%;
+    }
+
+    .card_project .wrapper{
+        min-height: 672px;
+    }
+}

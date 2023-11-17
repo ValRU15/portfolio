@@ -5,7 +5,8 @@ import { Fade } from "react-awesome-reveal";
 export const Work = () => {
   return (
     <>
-      <div>
+    <Fade cascade delay={150} damping={0.2} duration={1500}>
+      <div className={styles.WorkContain}>
         <h2 className={styles.workTitle}>Experience</h2>
         <p className={styles.workText}>
           I began my formal experience at{" "}
@@ -64,15 +65,14 @@ export const Work = () => {
                   <p className={styles.text}>
                     <u>Technologies:</u> React, HTML, CSS, Json, JavaScript,
                     GitHub.
-                    <br />
-                    <ul>
+                  </p>
+                  <ul>
                       <li>🔹 Development of interactions</li>
                       <li>🔹 Prototype layout</li>
                       <li>🔹 Implementation of code-based animations</li>
                       <li>🔹 Development of mobile and desktop versions</li>
                       <li>🔹 Site optimization</li>
                     </ul>
-                  </p>
                 </div>
               </div>
             </div>
@@ -105,8 +105,8 @@ export const Work = () => {
                   <p className={styles.text}>
                     <u>Technologies:</u> xCode, sceneKit, Kotlin, Swift,
                     AndroidStudio, GitHub,.
-                    <br />
-                    <ul>
+                  </p>
+                  <ul>
                       <li>🔹 Team management</li>
                       <li>🔹 Project planning for the dev team</li>
                       <li>🔹 Communication with the client</li>
@@ -116,7 +116,6 @@ export const Work = () => {
                       <li>🔹 Coding of lights and shadows</li>
                       <li>🔹 VFX (Visual Effects)</li>
                     </ul>
-                  </p>
                 </div>
               </div>
             </div>
@@ -143,8 +142,8 @@ export const Work = () => {
                   <p className={styles.text}>
                     <u>Technologies:</u> React, React Three drei, AWS, Next.js,
                     GitHub, Typescript.
-                    <br />
-                    <ul>
+                  </p>
+                  <ul>
                       <li>🔹 Team management</li>
                       <li>🔹 Project planning for the dev team</li>
                       <li>🔹 Communication with the client Dev team</li>
@@ -155,13 +154,13 @@ export const Work = () => {
                       <li>🔹 Post-processing & lighting coding</li>
                       <li>🔹 UI layout</li>
                     </ul>
-                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      </Fade>
     </>
   );
 };
