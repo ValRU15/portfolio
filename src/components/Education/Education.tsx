@@ -41,9 +41,9 @@ export const Education = () => {
                 leadership skills, and provides opportunities for
                 entrepreneurship and business creation.
               </p>
-              <p className={styles.read_more}>
+              {/* <p className={styles.read_more}>
                 <a href="#">Diploma</a>
-              </p>
+              </p> */}
             </div>
           </div>
           <div className={`${styles.blog_card} ${styles.alt}`}>
@@ -75,9 +75,9 @@ export const Education = () => {
                 the current business world, where innovation and change play
                 crucial roles.
               </p>
-              <p className={styles.read_more}>
+              {/* <p className={styles.read_more}>
                 <a href="#">Diploma</a>
-              </p>
+              </p> */}
             </div>
           </div>
         </Fade>

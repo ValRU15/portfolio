@@ -136,7 +136,7 @@ export const Work = () => {
                     <span className={styles.type}>Front-End Dev & PM</span>
                     <h1 className={styles.title}>
                       <a
-                        href="http://usualapp.s3-website-us-east-1.amazonaws.com/"
+                        href="https://usual-app.vercel.app/"
                         target="_blank"
                       >
                         Live Demo
