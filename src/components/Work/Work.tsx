@@ -50,7 +50,7 @@ export const Work = () => {
         </div>
       </Fade>
       <div className={styles.container}>
-        <Fade cascade delay={150} damping={0.2} duration={1500}>
+        {/* <Fade cascade delay={150} damping={0.2} duration={1500}> */}
           <div className={styles.row}>
             <div className={`${styles.card_project} ${styles.alternate_card}`}>
               <div className={`${styles.wrapper} ${styles.bg1}`}>
@@ -162,7 +162,7 @@ export const Work = () => {
               </div>
             </div>
           </div>
-        </Fade>
+        {/* </Fade> */}
       </div>
     </>
   );
