@@ -13,8 +13,8 @@ export const Bio = () => {
                 I'm <u>Valentina Ramirez</u>, a 27-year-old{" "}
                 <u>Multimedia Engineer</u> from Colombia. I graduated from
                 Universidad de San Buenaventura Bogotá and have gained{" "}
-                <u>4 years of diverse experience</u> in game development,
-                graphic design, and interactive media.
+                <u>5 years of diverse experience</u> in game development,
+                graphic design, and interactive media. With an MBA in PM from IEBS Business School, I have honed my skills in project management, digital strategy, and lean startup methodologies.
               </p>
               <p>
                 My professional philosophy centers on moral values like respect,
