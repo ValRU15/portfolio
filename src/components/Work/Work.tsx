@@ -34,7 +34,7 @@ export const Work = () => {
             as a front-end developer and Project Manager for the development
             team. Together, we have created interactive 3D websites for clients
             like{" "}
-            <a href="https://zenly.com/" target="_blank">
+            <a href="https://zenly-world.vercel.app/" target="_blank">
               Zenly
             </a>{" "}
             and{" "}
