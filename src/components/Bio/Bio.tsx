@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 export const Bio = () => {
   return (
     <>
-      <div className={styles.bioContainer}>
+      <div className={styles.bioContainer} id="About">
         <div className={styles.row}>
           <div className={styles.column_1}>
             <Fade delay={200} duration={2500}>
@@ -100,13 +100,31 @@ export const Bio = () => {
                     <span className={styles.tooltip}>High lvl</span>
                   </span>
                 </li>
+                <li className={styles.tooltip_list_item}>
+                  <span className={styles.tooltip_wrapper}>
+                    Notion
+                    <span className={styles.tooltip}>High lvl</span>
+                  </span>
+                </li>
+                <li className={styles.tooltip_list_item}>
+                  <span className={styles.tooltip_wrapper}>
+                    Trello
+                    <span className={styles.tooltip}>High lvl</span>
+                  </span>
+                </li>
+                <li className={styles.tooltip_list_item}>
+                  <span className={styles.tooltip_wrapper}>
+                    Slack
+                    <span className={styles.tooltip}>High lvl</span>
+                  </span>
+                </li>
               </ul>
             </Fade>
           </div>
           <div className={styles.column_2}>
             <Fade delay={200} duration={2500}>
               <img
-                src="https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/BioImage.jpeg?v=1700177139962"
+                src="https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/Valentina%20Ramirez.jpg?v=1724265488354"
                 alt="Valentina Ramirez"
                 className={styles.bioImg}
               />

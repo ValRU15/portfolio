@@ -9,10 +9,12 @@
     border-bottom: 1px solid;
 }
 .container {
-    margin: auto;
-    width: 100%;
-    padding: 3rem;
-    margin-bottom: 10%;
+  contain: content;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 3rem;
   }
   
   .title a {
@@ -136,7 +138,14 @@
   }
 .bg3 {
     background: linear-gradient(34deg, rgba(95, 198, 245,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(95, 198, 245, 0.854) 100%),
-    url(https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/wip.gif?v=1700254082413);
+    url(https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/USUAL_COMPO_BALL_GLASS_V01.gif?v=1724264784058);
+  }
+  .bg4 {
+    background: linear-gradient(34deg, rgba(95, 198, 245,0.854) 0%, rgba(34,98,127,0) 40%, rgba(34,98,127,0) 60%, rgba(95, 198, 245, 0.854) 100%),
+    url(https://cdn.glitch.global/33076b07-3ba2-42bf-bfe7-f74e5f3e1ce1/RHEZO_V06_0000.png?v=1724264783138);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .example_5 .date {

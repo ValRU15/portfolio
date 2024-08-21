@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 export const Education = () => {
   return (
     <>
-      <div className={styles.cardsContain} id="Edu">
+      <div className={styles.cardsContain} id="Education">
         <Fade cascade delay={150} damping={0.2} duration={1500}>
           <h2 className={styles.TitleEdu}>Education</h2>
           <div className={styles.blog_card}>
@@ -75,15 +75,15 @@ export const Education = () => {
                 the current business world, where innovation and change play
                 crucial roles.
               </p>
-              {/* <p className={styles.read_more}>
-                <a href="#">Diploma</a>
-              </p> */}
+              <p className={styles.read_more}>
+                <a href="https://accounts.iebschool.com/mi-diploma/c9775ef0093e9b64535d0dce64a79168/" target="_blamk">Diploma</a>
+              </p>
             </div>
           </div>
         </Fade>
         <div className={styles.otherContain}>
           <Fade cascade delay={150} damping={0.2} duration={1500}>
-            <h3 className={styles.subtitleEdu}>Other</h3>
+            <h3 className={styles.subtitleEdu} id="Certifications">Other certifications</h3>
 
             <div className={styles.cards}>
               <div className={styles.card}>
@@ -224,6 +224,19 @@ export const Education = () => {
           </Fade>
         </div>
       </div>
+      <footer className={styles.footer}>
+        <ul>  
+          <li>
+            <a href="https://www.linkedin.com/in/valentina-ramirez-umana/" target="_blank">Valentina Ramirez Umaña</a>    
+          </li>
+          <li>
+            <a href="tel:+57319-559-3107">Tel: (+57) 319 5593107</a>    
+          </li>
+          <li>
+            <a href="mailto:vramirezumana@gmail.com">Mail me</a>    
+          </li>
+          </ul>        
+      </footer>
     </>
   );
 };

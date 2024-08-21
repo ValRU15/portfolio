@@ -6,7 +6,7 @@ export const Work = () => {
   return (
     <>
       <Fade cascade delay={150} damping={0.2} duration={1500}>
-        <div className={styles.WorkContain}>
+        <div className={styles.WorkContain} id="Work">
           <h2 className={styles.workTitle}>Experience</h2>
           <p className={styles.workText}>
             I began my formal experience at{" "}
@@ -39,7 +39,7 @@ export const Work = () => {
             </a>{" "}
             and{" "}
             <a
-              href="http://usualapp.s3-website-us-east-1.amazonaws.com/"
+              href="https://usual-app.vercel.app/"
               target="_blank"
             >
               Usual
@@ -155,6 +155,41 @@ export const Work = () => {
                       <li>🔹 PNG sequence implementation</li>
                       <li>🔹 Particle development</li>
                       <li>🔹 Post-processing & lighting coding</li>
+                      <li>🔹 UI layout</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className={styles.row}>
+            <div className={`${styles.card_project} ${styles.alternate_card}`}>
+              <div className={`${styles.wrapper} ${styles.bg4}`}>
+                <div className={styles.date}>
+                  <span className={styles.day}>Rhezo Website</span>
+                </div>
+                <div className={styles.data}>
+                  <div className={styles.content}>
+                    <span className={styles.type}>Front-End Dev & PM</span>
+                    <h1 className={styles.title}>
+                      <a
+                        href="https://rhezo.vercel.app//"
+                        target="_blank"
+                      >
+                        Live Demo
+                      </a>
+                    </h1>
+                    <p className={styles.text}>
+                      <u>Technologies:</u> React, Gsap, AWS,
+                      Next.js, GitHub, Typescript.
+                    </p>
+                    <ul>
+                      <li>🔹 Team management</li>
+                      <li>🔹 Project planning for the dev team</li>
+                      <li>🔹 Communication with the client Dev team</li>
+                      <li>🔹 Optimization for loading</li>
+                      <li>🔹 PNG sequence implementation</li>
                       <li>🔹 UI layout</li>
                     </ul>
                   </div>

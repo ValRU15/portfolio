@@ -39,11 +39,11 @@ p u {
 }
 
 .bioImg {
-    width: 75%;
-    /* clip-path: polygon(15% 6%, 100% 6%, 85% 99%, 0% 100%); */
+    width: 65%;
+    /* clip-path: polygon(15% 6%, 100% 6%, 85% 99%, 0% 100%);  */
     border-radius: 50%;
     margin: 5% 0 0 20%;
-    transform: rotate(5deg);
+    transform: rotate(0deg);
     transform-style: preserve-3d;
     transform: translate3d(0, 0, -1);
 }
