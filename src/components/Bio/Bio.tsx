@@ -10,7 +10,7 @@ export const Bio = () => {
           <div className={styles.column_1}>
             <Fade delay={200} duration={2500}>
               <p>
-                I'm <u>Valentina Ramirez</u>, a 26-year-old{" "}
+                I'm <u>Valentina Ramirez</u>, a 27-year-old{" "}
                 <u>Multimedia Engineer</u> from Colombia. I graduated from
                 Universidad de San Buenaventura Bogotá and have gained{" "}
                 <u>4 years of diverse experience</u> in game development,
