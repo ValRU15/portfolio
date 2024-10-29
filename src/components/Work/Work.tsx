@@ -39,7 +39,7 @@ export const Work = () => {
             </a>{" "}
             and{" "}
             <a
-              href="https://usual-app.vercel.app/"
+              href="https://rhezo.io/"
               target="_blank"
             >
               Usual

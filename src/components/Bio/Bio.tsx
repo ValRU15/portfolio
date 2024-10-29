@@ -15,7 +15,7 @@ export const Bio = () => {
                 Universidad de San Buenaventura Bogotá and have gained{" "}
                 <u>5 years of diverse experience</u> in game development,
                 graphic design, and interactive media. With an{" "}
-                <u>MBA in PM from IEBS Business Schoo</u>, I have honed my
+                <u>MBA in PM from IEBS Business School</u>, I have honed my
                 skills in project management, digital strategy, and lean startup
                 methodologies.
               </p>
